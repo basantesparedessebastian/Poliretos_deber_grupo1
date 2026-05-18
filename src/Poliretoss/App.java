@@ -1,8 +1,8 @@
-package Poliretos;
+package Poliretoss;
 
 public class App {
-    public static void main(String[] args) {
-        Controlador c = new Controlador();
-        c.iniciar();
+    public static void main(String[] args) throws Exception {
+        controlador ctrl = new controlador();   // 'c' minúscula
+        ctrl.iniciar();
     }
 }
