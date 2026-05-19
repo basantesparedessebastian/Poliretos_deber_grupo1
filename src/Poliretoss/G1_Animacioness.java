@@ -1,10 +1,5 @@
 package Poliretoss;
 
-/*
- * Generar un numero aleatorio entre 10 a 100 para simular una carga de un archivo en kB.
- * Ponerle color a la barra (si el terminal lo permite) y detener la carga al completar el valor.
- */
-
 import java.util.Random;
 
 public class G1_Animacioness {
@@ -52,7 +47,6 @@ public class G1_Animacioness {
         }
         System.out.println();
         System.out.println("Descarga completada.");
-    sc.close();
     }
 }
 

@@ -26,7 +26,7 @@ public class G1_CadenadeCaracteres {
             }
         }
 
-        System.out.println("La frase tiene " + vocales + " vocal(es). ");
+        System.out.println("La frase tiene " + vocales + " vocales.");
     }
 }
 

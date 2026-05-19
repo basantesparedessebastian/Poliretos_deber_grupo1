@@ -16,7 +16,7 @@ public class G1_GrafosyAutomatas {
 
     private void validar() {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Ingrese una cadena (solo a, b, c): ");
+        System.out.print("Ingrese una cadena (solo a, b, c) sin espacios entre ellas: ");
         String s = sc.nextLine().trim();
 
         boolean ok = s.matches("a*b+c");
